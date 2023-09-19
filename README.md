@@ -27,7 +27,7 @@ The Testimonials website showcases a collection of data, including people's imag
 
 ## 🌐 Project Demo 
 
-To see a live demo of the project, please visit :
+To see a live demo of the project, please visit :https://testimonials-yashmishra.vercel.app/
 
 ## Contributing
 
