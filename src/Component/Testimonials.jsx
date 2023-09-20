@@ -1,12 +1,8 @@
 import React from "react";
 import { AiOutlineDoubleRight , AiOutlineDoubleLeft} from "react-icons/ai";
 
-function Testimonials({
-  review,
-  randomNumber,
-  incrementButton,
-  decrementButton,
-}) {
+function Testimonials({review,randomNumber, incrementButton, decrementButton,})
+ {
   return (
 
     <div className="Card bg-white sm:w-[60%] w-[90%] border-2 z-20 rounded-md relative shadow-md ring-violet-40 flex flex-col ">

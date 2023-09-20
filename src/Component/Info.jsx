@@ -5,7 +5,6 @@ import Testimonials from "./Testimonials";
 
 function Info() {
   const [review, setReview] = useState(reviews[0]);
-
   function incrementButton() {
     let currentIndex = reviews.indexOf(review);
     let increase = currentIndex + 1;
@@ -24,17 +23,16 @@ function Info() {
   }
 
   function randomNumber() {
-    let max = reviews.length - 1;
-    let min = 0;
-    let random;
+    let max = reviews.length;
     let currentIndex = reviews.indexOf(review);
+    let random;
 
     do {
-      random = Math.floor(Math.random() * (max - min + 1)) + min;
+      random = Math.floor(Math.random() * max);
     } while (random === currentIndex);
 
     setReview(reviews[random]);
-    console.log("After", random);
+
   }
 
   return (
